@@ -3,7 +3,7 @@ from rest_framework.response import Response
 
 # Create your views here.
 
-@api_view(['GET'])
+@api_view(['GET','PUT','POST','DELETE'])
 def product_list(request):
 
 
